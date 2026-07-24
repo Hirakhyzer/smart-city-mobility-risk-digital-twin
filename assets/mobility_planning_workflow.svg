@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-label="Mobility planning workflow">
+  <rect width="920" height="360" fill="#ffffff"/>
+  <style>.h{font:700 22px Arial;fill:#111827}.t{font:600 15px Arial;fill:#111827}.s{font:400 12px Arial;fill:#475569}.b{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:14}.a{stroke:#16a34a;stroke-width:3;marker-end:url(#m);fill:none}</style>
+  <defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#16a34a"/></marker></defs>
+  <text x="38" y="42" class="h">Synthetic Mobility Planning Workflow</text>
+  <rect x="38" y="82" width="150" height="74" class="b"/><text x="58" y="112" class="t">City Model</text><text x="58" y="135" class="s">zones and roads</text>
+  <rect x="238" y="82" width="150" height="74" class="b"/><text x="258" y="112" class="t">Scenario Runs</text><text x="258" y="135" class="s">six interventions</text>
+  <rect x="438" y="82" width="150" height="74" class="b"/><text x="458" y="112" class="t">Risk Metrics</text><text x="458" y="135" class="s">safety, delay, air</text>
+  <rect x="638" y="82" width="150" height="74" class="b"/><text x="658" y="112" class="t">Equity Review</text><text x="658" y="135" class="s">burden gaps</text>
+  <rect x="338" y="226" width="244" height="76" class="b"/><text x="358" y="256" class="t">Human Planning Review</text><text x="358" y="280" class="s">interpret trade-offs before action</text>
+  <path d="M188 119 L238 119" class="a"/><path d="M388 119 L438 119" class="a"/><path d="M588 119 L638 119" class="a"/><path d="M713 156 C700 220 610 250 582 264" class="a"/><path d="M460 156 L460 226" class="a"/>
+</svg>

@@ -1,0 +1,18 @@
+seed: 42
+zones: 16
+segments: 46
+time_steps: 96
+scenarios:
+  - baseline
+  - congestion_pricing
+  - emergency_lane_priority
+  - transit_priority_corridor
+  - low_emission_routing
+  - equity_aware_mobility
+outputs:
+  root: outputs
+  results: outputs/results
+  figures: outputs/figures
+  reports: outputs/reports
+  audit: outputs/audit
+boundary: independent synthetic planning simulator only; not official traffic control or emergency dispatch

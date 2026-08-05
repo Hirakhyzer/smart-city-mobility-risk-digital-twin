@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Smart City Mobility Risk Digital Twin banner">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#020617"/><stop offset="48%" stop-color="#0f172a"/><stop offset="100%" stop-color="#064e3b"/></linearGradient>
+    <radialGradient id="cyan" cx="16%" cy="18%" r="72%"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".45"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="green" cx="88%" cy="20%" r="72%"><stop offset="0%" stop-color="#34d399" stop-opacity=".42"/><stop offset="100%" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>.title{font:800 50px Arial,Helvetica,sans-serif;fill:#f8fafc;letter-spacing:-1px}.sub{font:700 24px Arial,Helvetica,sans-serif;fill:#a7f3d0}.small{font:500 16px Arial,Helvetica,sans-serif;fill:#cbd5e1}.chip{font:700 14px Arial,Helvetica,sans-serif;fill:#ecfeff}.label{font:700 13px Arial,Helvetica,sans-serif;fill:#e2e8f0}.tiny{font:500 12px Arial,Helvetica,sans-serif;fill:#94a3b8}</style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/><rect width="1200" height="360" rx="28" fill="url(#cyan)"/><rect width="1200" height="360" rx="28" fill="url(#green)"/>
+  <g opacity=".13" stroke="#e0f2fe" stroke-width="1.2" fill="none">
+    <path d="M44 72 H1145 M70 122 H1128 M52 176 H1160 M86 232 H1130 M44 286 H1154"/>
+    <path d="M108 38 V322 M206 52 V318 M326 44 V330 M462 60 V318 M612 44 V330 M760 55 V320 M908 42 V330 M1044 52 V318"/>
+  </g>
+  <g opacity=".55" fill="none" stroke-linecap="round" stroke-width="5">
+    <path d="M105 248 C220 175 315 272 430 204 S650 128 775 204 S972 286 1100 188" stroke="#22d3ee"/>
+    <path d="M92 110 C230 168 344 70 484 122 S700 236 862 142 S1030 85 1140 142" stroke="#34d399" opacity=".8"/>
+    <path d="M180 306 C326 244 480 305 610 248 S815 214 1010 270" stroke="#f59e0b" opacity=".75"/>
+  </g>
+  <g transform="translate(64 68)">
+    <text class="title" x="0" y="54">Smart City Mobility Risk Digital Twin</text>
+    <text class="sub" x="0" y="92">Synthetic Urban Mobility • Congestion • Safety • Equity</text>
+    <text class="small" x="0" y="128">Planning-grade research simulator for traffic risk, emissions burden, emergency routes, and policy scenario evaluation.</text>
+    <g transform="translate(0 168)">
+      <rect x="0" y="0" width="126" height="34" rx="17" fill="#0891b2" opacity=".88"/><text class="chip" x="63" y="23" text-anchor="middle">Digital Twin</text>
+      <rect x="142" y="0" width="126" height="34" rx="17" fill="#047857" opacity=".88"/><text class="chip" x="205" y="23" text-anchor="middle">Mobility Risk</text>
+      <rect x="284" y="0" width="128" height="34" rx="17" fill="#b45309" opacity=".88"/><text class="chip" x="348" y="23" text-anchor="middle">Emergency</text>
+      <rect x="428" y="0" width="118" height="34" rx="17" fill="#7c3aed" opacity=".88"/><text class="chip" x="487" y="23" text-anchor="middle">Equity Audit</text>
+      <rect x="562" y="0" width="138" height="34" rx="17" fill="#1d4ed8" opacity=".88"/><text class="chip" x="631" y="23" text-anchor="middle">Scenario AI</text>
+    </g>
+    <text class="tiny" x="0" y="246">Independent synthetic planning simulator — not official traffic control, emergency dispatch, or city policy certification.</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(865 78)">
+    <rect x="0" y="0" width="260" height="206" rx="28" fill="#020617" opacity=".70" stroke="#334155"/>
+    <g transform="translate(30 28)">
+      <rect x="0" y="0" width="200" height="150" rx="18" fill="#0f172a" stroke="#475569"/>
+      <path d="M18 116 H180 M18 80 H180 M18 44 H180 M48 16 V134 M96 16 V134 M148 16 V134" stroke="#334155"/>
+      <circle cx="48" cy="80" r="9" fill="#22d3ee"/><circle cx="96" cy="44" r="9" fill="#34d399"/><circle cx="148" cy="116" r="9" fill="#f59e0b"/>
+      <path d="M48 80 L96 44 L148 116" stroke="#e0f2fe" stroke-width="3" fill="none"/>
+      <text class="label" x="100" y="172" text-anchor="middle">Risk-aware mobility planning</text>
+    </g>
+  </g>
+</svg>

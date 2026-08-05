@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-label="Responsible smart city mobility planning workflow">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#ecfeff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#0f172a" flood-opacity=".12"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#0891b2"/></marker>
+    <style>.title{font:800 27px Arial,Helvetica,sans-serif;fill:#0f172a}.boxTitle{font:800 17px Arial,Helvetica,sans-serif;fill:#0f172a}.small{font:500 12px Arial,Helvetica,sans-serif;fill:#475569}.note{font:700 14px Arial,Helvetica,sans-serif;fill:#0f766e}.arrow{stroke:#0891b2;stroke-width:3;marker-end:url(#arrow);fill:none}</style>
+  </defs>
+  <rect width="1100" height="430" rx="28" fill="url(#bg)"/>
+  <text class="title" x="550" y="52" text-anchor="middle">Responsible Mobility Risk Planning Workflow</text>
+  <g filter="url(#shadow)">
+    <rect x="50" y="100" width="170" height="96" rx="20" fill="#fff"/><text class="boxTitle" x="135" y="132" text-anchor="middle">Synthetic City</text><text class="small" x="135" y="158" text-anchor="middle">zones, roads, transit</text><text class="small" x="135" y="178" text-anchor="middle">facilities, traffic traces</text>
+    <rect x="260" y="100" width="170" height="96" rx="20" fill="#fff"/><text class="boxTitle" x="345" y="132" text-anchor="middle">Scenario Engine</text><text class="small" x="345" y="158" text-anchor="middle">baseline, transit priority</text><text class="small" x="345" y="178" text-anchor="middle">emergency lanes, equity</text>
+    <rect x="470" y="100" width="170" height="96" rx="20" fill="#fff"/><text class="boxTitle" x="555" y="132" text-anchor="middle">Risk Models</text><text class="small" x="555" y="158" text-anchor="middle">congestion, safety</text><text class="small" x="555" y="178" text-anchor="middle">emissions, delays</text>
+    <rect x="680" y="100" width="170" height="96" rx="20" fill="#fff"/><text class="boxTitle" x="765" y="132" text-anchor="middle">Equity Review</text><text class="small" x="765" y="158" text-anchor="middle">access gaps, burden</text><text class="small" x="765" y="178" text-anchor="middle">high-priority zones</text>
+    <rect x="890" y="100" width="160" height="96" rx="20" fill="#fff"/><text class="boxTitle" x="970" y="132" text-anchor="middle">Evidence Bundle</text><text class="small" x="970" y="158" text-anchor="middle">CSV, figures, report</text><text class="small" x="970" y="178" text-anchor="middle">audit ledger</text>
+  </g>
+  <path class="arrow" d="M220 148 H260"/><path class="arrow" d="M430 148 H470"/><path class="arrow" d="M640 148 H680"/><path class="arrow" d="M850 148 H890"/>
+  <g filter="url(#shadow)">
+    <rect x="85" y="255" width="930" height="92" rx="22" fill="#ffffff" stroke="#99f6e4"/>
+    <text class="note" x="550" y="288" text-anchor="middle">Human governance checkpoint</text>
+    <text class="small" x="550" y="318" text-anchor="middle">Synthetic results are planning evidence only. Real action needs traffic-engineering validation, emergency-services review, public participation, privacy review, accessibility review, and city governance.</text>
+  </g>
+</svg>
